@@ -1,0 +1,13 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## IDE / OS
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
