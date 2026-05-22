@@ -1,13 +1,47 @@
 ## Build results
 [Bb]in/
 [Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-## IDE / OS
+## Visual Studio / Rider / VS Code
 .vs/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+## OS
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Misc
+*.cache
+*.log
+*.tmp
+*.temp
